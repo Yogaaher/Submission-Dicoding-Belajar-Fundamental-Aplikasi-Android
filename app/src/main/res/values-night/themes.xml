@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for night mode -->
+    <style name="Theme.MyDicodingApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/gray_600</item> <!-- Warna abu-abu gelap -->
+        <item name="colorPrimaryVariant">@color/gray_700</item> <!-- Warna abu-abu lebih terang -->
+        <item name="colorOnPrimary">@color/white</item> <!-- Warna teks di atas warna primer -->
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/gray_600</item> <!-- Warna abu-abu gelap -->
+        <item name="colorSecondaryVariant">@color/gray_500</item> <!-- Warna abu-abu sedang -->
+        <item name="colorOnSecondary">@color/white</item> <!-- Warna teks di atas warna sekunder -->
+
+        <item name="colorSwitchThumbNormal">@color/gray_400</item>
+
+        <item name="colorSurface">@color/gray_800</item> <!-- Latar belakang permukaan -->
+        <item name="colorOnSurface">@color/white</item> <!-- Warna teks di atas permukaan -->
+        <item name="colorError">@color/red</item> <!-- Warna error -->
+        <item name="colorOnError">@color/white</item> <!-- Warna teks di atas warna error -->
+    </style>
+</resources>

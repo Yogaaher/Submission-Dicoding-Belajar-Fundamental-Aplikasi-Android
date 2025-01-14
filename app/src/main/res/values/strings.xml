@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MyDicodingApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_Upcoming">Upcoming</string>
+    <string name="title_Finished">Finished</string>
+    <string name="title_Favorite">Favorite</string>
+    <string name="title_Setting">Setting</string>
+    <string name="event_title">%1$s</string>
+    <string name="event_time">Mulai pada %1$s &#10; hingga %2$s</string>
+    <string name="event_location">Lokasi: %1$s</string>
+    <string name="event_owner_name">by %1$s</string>
+    <string name="event_category">%1$s</string>
+    <string name="event_summary">%1$s</string>
+    <string name="event_image_description">Image of the event</string>
+    <string name="searchbar_hint">Search Event</string>
+    <string name="offline_message">Anda sedang offline</string>
+    <string name="event_cover_image">Event cover image</string>
+    <string name="register_now">Register now</string>
+    <string name="no_events_found">Tidak ada acara ditemukan</string>
+    <string name="setting">Setting</string>
+    <string name="detail">Detail Activity</string>
+    <string name="event_remaining_quota">Sisa Kuota: %1$d</string>
+    <string name="no_favorites_found">Tidak ada acara favorit yang ditemukan.</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="dark_mode_description">Aktifkan mode gelap untuk tampilan yang lebih nyaman di malam hari.</string>
+    <string name="dark_mode_icon_desc">Ikon Dark Mode</string>
+    <string name="notifications">Notifikasi</string>
+    <string name="notifications_description">Aktifkan notifikasi untuk mendapatkan pemberitahuan tentang acara terbaru.</string>
+    <string name="notification_icon_desc">Ikon Notifikasi</string>
+    <string name="save_to_favorite">Save to Favorite</string>
+    <string name="saved">Saved</string>
+    <string name="dicoding_event_tittle">Dicoding Event</string>
+    <string name="tidak_ada_acara_ditemukan">Tidak ada acara ditemukan</string>
+    <string name="upcoming_events_tittle">Upcoming Events</string>
+    <string name="finished_events_tittle">Finished Events</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/eventImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:contentDescription="@string/event_image_description"
+        android:scaleType="centerCrop"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/upcomingEventTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:maxLines="2"
+        android:ellipsize="end"
+        tools:text="Event Title"
+        tools:ignore="RtlHardcoded,SmallSp" />
+
+        <TextView
+            android:id="@+id/upcomingEventCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="8sp"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="italic"
+            android:gravity="left"
+            android:maxLines="1"
+            android:ellipsize="end"
+            tools:text="Category"
+            tools:ignore="RtlHardcoded,SmallSp" />
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
